@@ -1,5 +1,9 @@
 # commandr-ai
 
+Leveraging wearable AI for hands-free gaming.
+
+![](images/screenshot.png) 
+
 ## Setup
 
 Be sure to use a virtual environment:

@@ -110,7 +110,7 @@ class Player:
                 self.lane = 'left'
                 self.rect.x = LEFT_LANE_SHIP
             last_switch_time = current_time
-            print(f"🚗 Switched to {self.lane.upper()} lane!")
+            print(f"🚀 Switched to {self.lane.upper()} lane!")
 
 def score_board(dodged):
     font = pygame.font.Font(None, 50)  # 2x font size
