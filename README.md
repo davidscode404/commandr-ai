@@ -64,15 +64,6 @@ pip install -r requirements.txt
 
 ### 5. Configure Omi Device
 
-Create a `.env` file:
-```bash
-touch .env
-```
-
-Add your Deepgram API key (if using transcription features):
-
-DEEPGRAM_API_KEY=your_key_here
-
 **Important**: Update the `DEVICE_ID` in both `main.py` and `test_omi.py` with your Omi device's Bluetooth UUID. Find it by running:
 ```bash
 python -c "from omi import listen_to_omi; import asyncio; asyncio.run(listen_to_omi.scan())"
@@ -101,16 +92,16 @@ python main.py
 - ⌘Q **Quit**
 
 ## Project Structure
-
-commandr-ai/
+```
+.
 ├── main.py              # Main game
 ├── test_omi.py          # Omi connection test & volume calibration
 ├── requirements.txt     # Python dependencies
-├── .env                # API keys (not in repo)
 ├── images/
 │   ├── starfield.png   # Background
 │   └── rocket.png      # Player sprite
 └── README.md
+```
 
 ## Audio Format Discovery
 
