@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 **Important**: Update the `DEVICE_ID` in both `main.py` and `test_omi.py` with your Omi device's Bluetooth UUID. Find it by running:
 ```bash
-python -c "from omi import listen_to_omi; import asyncio; asyncio.run(listen_to_omi.scan())"
+python3 -c "from omi import listen_to_omi; import asyncio; asyncio.run(listen_to_omi.scan())"
 ```
 
 ## Usage
@@ -75,7 +75,7 @@ python -c "from omi import listen_to_omi; import asyncio; asyncio.run(listen_to_
 
 First, verify your Omi device is working and calibrate the volume threshold:
 ```bash
-python test_omi.py
+python3 test_omi.py
 ```
 
 Speak into your Omi device and observe the amplitude levels. Adjust `AMPLITUDE_THRESHOLD` in `main.py` if needed (default: 10%).
@@ -83,7 +83,7 @@ Speak into your Omi device and observe the amplitude levels. Adjust `AMPLITUDE_T
 ### Play the Game
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 **Controls**:
