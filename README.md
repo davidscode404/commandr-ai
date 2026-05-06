@@ -1,14 +1,10 @@
 # Commandr AI
 
-Voice-controlled space racing game using the Omi wearable AI device for hands-free gaming.
+This project demonstrates hands-free voice-controlled gaming using the [Omi wearable AI device](https://www.omi.me/). Players control a spaceship by **shouting** to switch lanes and dodge obstacles - no keyboard or controller needed!
 
 ![Game Screenshot](images/screenshot.png)
 
-## Overview
-
-This project demonstrates hands-free voice-controlled gaming using the [Omi wearable AI device](https://www.omi.me/). Players control a spaceship by **shouting** to switch lanes and dodge obstacles - no keyboard or controller needed!
-
-### How It Works
+## How It Works
 
 - **Voice Detection**: Omi device captures audio at 8kHz, 16-bit PCM
 - **Amplitude Triggering**: Loud sounds (shouts) trigger lane switches
