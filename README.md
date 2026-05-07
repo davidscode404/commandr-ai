@@ -1,5 +1,7 @@
 # Commandr AI
 
+[LIVE DEMO](https://youtu.be/s3oYkjI3bO0?si=fwtmQQqIQTqFNHtM)
+
 This project demonstrates hands-free voice-controlled gaming using the [Omi wearable AI device](https://www.omi.me/). Players control a spaceship by **shouting** to switch lanes and dodge obstacles - no keyboard or controller needed!
 
 ![Game Screenshot](images/screenshot.png)
